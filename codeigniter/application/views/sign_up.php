@@ -53,7 +53,7 @@
                </div>
           </div><br><br><br><br>
 <!--FORM PROFESSOR-->
-          <form id="formProfessor" method="post" role="form" class="m-x-auto text-center app-login-form" action="/sistema_seguimiento_ing/codeigniter/index.php/register/registerprofessor">
+          <form id="formProfessor" method="post" role="form" class="m-x-auto text-center app-login-form" action="registerprofessor">
 
               <div class="form-group row">
                   <label for="nameProfessor" class="col-sm-5 col-md-5  col-form-label col-form-label-lg">Nombre <span class="label_required_input">*</span></label>
@@ -108,7 +108,7 @@
           </form>
 
 <!--FORM STUDENT-->
-          <form id="formStudent" method="post" role="form" class="m-x-auto text-center app-login-form"  action="/sistema_seguimiento_ing/codeigniter/index.php/register/registerstudent">
+          <form id="formStudent" method="post" role="form" class="m-x-auto text-center app-login-form"  action="registerstudent">
 
               <div class="form-group row">
                   <label for="nameStudent" class="col-sm-5 col-md-5 col-form-label col-form-label-lg">Nombre <span class="label_required_input">*</span></label>
@@ -165,7 +165,7 @@
 
           <!---FORM COORDINADOR-->
 
-          <form id="formCoordinador" method="post" role="form" class="m-x-auto text-center app-login-form"  action="/sistema_seguimiento_ing/codeigniter/index.php/register/registerCoordinator">
+          <form id="formCoordinador" method="post" role="form" class="m-x-auto text-center app-login-form"  action="registerCoordinator">
 
               <div class="form-group row">
                   <label for="emailStudent" class="col-sm-5 col-md-5 col-form-label col-form-label-lg">ID <span class="label_required_input">*</span></label>
