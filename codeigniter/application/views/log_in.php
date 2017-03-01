@@ -22,7 +22,7 @@
       <div class="container-content-middle">
 
         <form id="formLogin" class="m-x-auto text-center app-login-form" role="form" action="
-        <?=base_url()?>/index.php/login/init" method="post">
+        <?=base_url()?>/login/init" method="post">
 
           <div class="form-group row" id="aoc">
             <label for="id" class="col-sm-6 col-md-6 col-form-label-lg">Matrícula o ID <span class="label_required_input">*</span></label>
