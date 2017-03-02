@@ -88,4 +88,9 @@ class Professor_Model extends CI_Model
         $query = $this->db->query('DELETE FROM SIGNATURE_ACTIVE WHERE id_signature_active = '.$idSignature);
     }
 
+    public function editSignature($id,$object){
+        $this->db->where('id_signature_active',$id);
+        return $this->db->update('SIGNATURE_ACTIVE', $object); 
+    }
+
 }

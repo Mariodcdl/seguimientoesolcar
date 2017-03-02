@@ -23,9 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/';
-//'http://176.32.230.9/deployingapps.com/sistema_seguimiento_ing/codeigniter/';
-//'http://localhost/sistema_seguimiento_ing/codeigniter/';
+$config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/';//'http://'.$_SERVER['HTTP_HOST'].'/sistema_seguimiento_ing';//
+
 
 /*
 |--------------------------------------------------------------------------
@@ -384,7 +383,7 @@ $config['encryption_key'] = '1234567890';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = sys_get_temp_dir();//NULL;
+$config['sess_save_path'] = sys_get_temp_dir(); //NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;

@@ -85,6 +85,30 @@ class Professor extends CI_Controller{
 
     }
 
+    public function editsignature(){
+ 
+        $idSignature = $this->input->post('id');
+        $idSignatureName =  $this->input->post('idSignature');
+        $nrc =  $this->input->post('nrc');
+        $numberPeriod =  $this->input->post('numberPeriod');
+        $roomNumber =  $this->input->post('roomNumber');            
+        $dateinit =  $this->input->post('dateinit');
+        $dateend =  $this->input->post('dateend');
+        $timeinit =  $this->input->post('timeinit');
+        $timeend =  $this->input->post('timeend');
+
+        $objectSignature = array('id_signature_active'=>$idSignature,'id_signature_prev'=>$idSignatureName,'nrc'=>$nrc,'period'=>$numberPeriod,'date_init'=>$dateinit,'date_end'=>$dateend,'room'=>$roomNumber,'time_init'=>$timeinit,'time_end'=>$timeend);
+
+        if($this->Professor_Model->editSignature($idSignature,$objectSignature))
+        {
+            $arr = array('success' => true);
+        }else{
+            $arr = array('success' => false);
+        }
+        echo json_encode($arr);
+    }
+
+
 }
 
 
