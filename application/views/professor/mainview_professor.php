@@ -49,12 +49,12 @@
 
             <ul class="nav navbar-nav navbar-right m-r-0 hidden-xs">
                 <li>
-                    <a data-toggle="modal" href="<?=base_url()?>index.php/professor/logout">Logout</a>
+                    <a data-toggle="modal" href="logout">Logout</a>
                 </li>
             </ul>
 
             <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg">
-                <li><a data-toggle="modal" href="<?=base_url()?>index.php/professor/logout">Logout</a></li>
+                <li><a data-toggle="modal" href="logout">Logout</a></li>
             </ul>
 
           </div>

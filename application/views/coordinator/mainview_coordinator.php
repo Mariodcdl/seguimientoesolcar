@@ -47,12 +47,12 @@
 
             <ul class="nav navbar-nav navbar-right m-r-0 hidden-xs">
                 <li>
-                    <a href="<?=base_url()?>/index.php/coordinator/logout">Logout</a>
+                    <a href="logout">Logout</a>
                 </li>
             </ul>
 
             <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg">
-                <li><a href="<?=base_url()?>/index.php/coordinator/logout">Logout</a></li>
+                <li><a href="logout">Logout</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Avisos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
